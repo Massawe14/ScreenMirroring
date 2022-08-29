@@ -1,8 +1,9 @@
 package org.learnprograming.screenmirroring;
 
 
+import android.content.Intent;
 import android.os.Bundle;
-
+import android.widget.Button;
 import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import me.riddhimanadib.library.NavigationPage;
 
 
 public class MainActivity extends BottomBarHolderActivity implements FirstFragment.OnFragmentInteractionListener {
+    Button server;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

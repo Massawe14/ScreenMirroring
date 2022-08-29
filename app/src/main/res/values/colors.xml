@@ -6,7 +6,7 @@
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
     <color name="stroke">#aaaaaa</color>
-    <color name="colorBackground">#ffbf00</color>
-    <color name="colorNavAccentSelected">#ff0000</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorNavAccentSelected">#FFC000</color>
     <color name="colorNavAccentUnselected">#727272</color>
 </resources>
