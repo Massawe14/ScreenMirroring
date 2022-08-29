@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.fragment.app.Fragment;
 
 public class SecondFragment extends Fragment {
@@ -13,9 +12,8 @@ public class SecondFragment extends Fragment {
         return new SecondFragment();
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle savedInstance){
+        super.onCreate(savedInstance);
     }
 
     @Override
